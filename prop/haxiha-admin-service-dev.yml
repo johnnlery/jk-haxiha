@@ -1,0 +1,11 @@
+server:
+    port: 7031
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://172.16.1.105:3306/spring?characterEncoding=utf8&useSSL=true
+        username: root
+        password: Jkdz8888
+mybatis:
+    mapper-locations: classpath*:com/haxiha/admin/dao/user/*.xml
+    type-aliases-package: com/haxiha/admin/domain/user,com/haxiha/admin/intf/dto
